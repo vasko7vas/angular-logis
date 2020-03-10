@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent  {
   name: string = 'Angular';
+  sklad: [ '1', '2' ,'3' ,'4' ,'5' ,'6' ];
+  
 }

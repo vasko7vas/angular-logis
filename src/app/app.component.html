@@ -1,4 +1,11 @@
 <hello name="{{ name }}"></hello>
 <p>
-  dd
+  d
+  {{ sklad[0] }}
 </p>
+
+ <ul>
+    <li *ngFor="let cell of sklad">
+      {{ cell }}
+    </li>
+  </ul>
