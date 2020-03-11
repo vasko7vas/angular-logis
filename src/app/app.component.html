@@ -1,13 +1,13 @@
 <hello name="{{ name }}"></hello>
 <p>
   d
-  {{ sklad[0] }}
+  
 </p>
 
  
-    <div *ngFor="let cell of sklad" style="display:inline; border-style: solid;">
-      <br *ngIf="cell.newfloor===1">
-      
-      {{ cell.pall }}
-      
-    </div>
+<ng-container *ngFor="let cell of sklad">
+  <br *ngIf="cell.newfloor===1">
+  <div style="display:inline; border-style: solid;">
+{{cell.pall}}
+</div>
+</ng-container>
