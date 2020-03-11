@@ -4,8 +4,10 @@
   {{ sklad[0] }}
 </p>
 
- <ul>
-    <li *ngFor="let cell of sklad">
-      {{ cell }}
-    </li>
-  </ul>
+ 
+    <div *ngFor="let cell of sklad" style="display:inline; border-style: solid;">
+      <br *ngIf="cell.newfloor===1">
+      
+      {{ cell.pall }}
+      
+    </div>
