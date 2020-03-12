@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: [ './app.component.css' ]
 })
 export class AppComponent  {
-  name: string = 'Angular';
+  name: string = 'Storage';
   sklad = [
   {x:1, y:1, pall: 1, newfloor:0}, 
   {x:1, y:2, pall: 0, newfloor:0}, 
