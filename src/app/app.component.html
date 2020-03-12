@@ -1,13 +1,7 @@
 <hello name="{{ name }}"></hello>
 
 
- 
-<ng-container *ngFor="let cell of sklad">
-  <br *ngIf="cell.newfloor===1">
-  <div style="display:inline; border-style: solid;">
-{{cell.pall}}
-</div>
-</ng-container>
+
 
 <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
 
