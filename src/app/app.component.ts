@@ -26,6 +26,7 @@ const ELEMENT_DATA: PeriodicElement[] = [
   styleUrls: [ './app.component.css' ]
 })
 export class AppComponent  {
+  //displayedColumns: string[] = ['position', 'name', 'weight', 'symbol'];
   displayedColumns: string[] = ['position', 'name', 'weight', 'symbol'];
   dataSource = ELEMENT_DATA;
   name: string = 'Storage';
